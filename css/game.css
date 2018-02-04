@@ -1,0 +1,113 @@
+#game {
+	margin: auto;
+}
+
+#game table {
+    display: block;
+    border-collapse: collapse;
+	border-radius: 25px;
+    width: 320px;
+    margin: 25px auto;
+}
+
+#game td {
+	background-color: white;
+    border: 2px ridge grey;
+    width: 63px;
+    height: 63px;
+}
+
+#game img {
+    display: block;
+    width: 60px;
+    height: 60px;
+}
+
+#game form {
+	display: block;
+	width: 200px;
+	margin: auto;
+}
+
+#game #bin table {
+	width: 60px !important;
+}
+
+#game #bin td {
+	background-image: url('../img/kuka.png');
+	background-size: 60px;
+	background-position: center;
+}
+
+#game #creator table {
+	width: 434px !important;
+}
+
+#direction-0 {
+	transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+}
+
+#direction-1 {
+	transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+}
+
+#direction-2 {
+	transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+}
+
+#direction-3 {
+	transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+}
+
+#game .fixed {
+	display: block;
+	position: relative;
+    bottom: 30px;
+}
+
+#game .fixed img {
+   position: absolute;
+   z-index: 1;
+}
+
+#game .fixed #lock{
+    left: 45px;
+	width: 15px;
+    height: 15px;
+    z-index: 2 !important;
+}
+
+#game .droppable {
+	background-color: green;
+	opacity: 0.2;
+}
+
+#beam-0 {
+	background-image: url('../img/nyalab0.png');
+	background-size: 63px;
+	background-position: center;
+}
+
+#beam-1 {
+	background-image: url('../img/nyalab1.png');
+	background-size: 63px;
+	background-position: center;
+}
+
+#doublebeam {
+	background-image: url('../img/duplanyalab.png');
+	background-size: 63px;
+	background-position: center;
+}
